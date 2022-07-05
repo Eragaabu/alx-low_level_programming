@@ -5,7 +5,7 @@
  *
  * @n: number times table (0 < n <= 15)
  *
- * Return: no return
+i * Return: no return
  */
 void print_times_table(int n)
 {
@@ -40,7 +40,7 @@ void print_times_table(int n)
 					_putchar((op % 10) + 48);
 				}
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
